@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    a{
+        @apply text-green-500;
+        @apply text-3xl;
+    }
+}
+@layer components{
+    .menu-button{
+        @apply text-yellow-600
+    }
+}
