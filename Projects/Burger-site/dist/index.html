@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/output.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/output.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Document</title>
-</head>
-<body class="font-Roboto">
-    
-        <div class=" bg-gradient-to-t from-indigo-200 lg:h-screen">
-            
-            <nav class=" w-full fixed top-0 bg-white-800 flex justify-between  ">
-              <div class="flex container mx-auto justify-around">
-               <h1 class="text-2xl">Title</h1>
-                <div class="flex justify-evenly hidden md:flex space-x-10 ">
-                    <p>one</p>
-                    <p>one</p>
-                    <p>one</p>
-                </div>
-                <button>click me</button>
-              </div>
-            </nav>
-            <div></div>
+  </head>
+  <body class="font-Roboto">
+    <div class="h-[50vh] bg-gradient-to-t from-indigo-200 md:h-screen">
+      <nav class="bg-white-200 w-full py-5">
+        <div class="container mx-auto flex justify-around">
+          <h1>Title</h1>
+          <ul class="hidden justify-center space-x-8 align-middle md:flex">
+            <li>Home</li>
+            <li>about</li>
+            <li>section</li>
+          </ul>
+          <div class="z-10 space-y-1" id="ham">
+            <div class="h-0.5 w-6 bg-black"></div>
+            <div class="h-0.5 w-6 bg-black"></div>
+            <div class="h-0.5 w-6 bg-black"></div>
+          </div>
+          <ul id="menu" class="absolute top-0 left-0 flex w-full flex-col space-y-3 rounded-b-3xl bg-yellow-200 text-center sm:hidden">
+            <li>Home</li>
+            <li>about</li>
+            <li>section</li>
+          </ul>
         </div>
- 
-</body>
+      </nav>
+    </div>
+  </body>
 </html>
