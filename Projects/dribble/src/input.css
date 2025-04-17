@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* .onee{
+    background-color: #3b82f6;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    transform-style: preserve-3d;
+}
+  .container {
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a202c;
+  }
+ */
+
+ .container{
+    transform:rotate(-9deg);
+ }
