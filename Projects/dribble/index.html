@@ -5,54 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link href="./src/output.css" rel="stylesheet" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Temporary inline styles for demonstration */
+      body {
+        overflow-x: hidden;
+      }
+    </style>
   </head>
-  <body>
+  <body class="">
+    <!-- First Section -->
     <section
-      class="front h-[100vh] bg-gray-300 rounded-br-[12%] rounded-bl-[12%]   sm:rounded-br-[15%] smLrounded-bl-[15%]"
+      class="front relative h-[100vh] bg-gray-300 rounded-br-[12%] rounded-bl-[12%] sm:rounded-br-[15%] sm:rounded-bl-[15%]"
     >
-      <nav class=""> 
-        <div class="flex justify-center sm:justify-between px-4 py-3 text-[16px] items-center ">
-            <div class="one flex gap-x-2 justify-center items-center">
-                <p>nk946432@gmail.com</p>
-                <button class="bg-white text-black px-[16px] py-2 rounded-2xl">copy</button>
-                <button class="bg-white text-black px-[20px] py-2 rounded-2xl">cv</button>
-            </div>
-            <div class="two hidden sm:block">
-                <p>linkedin / dribble / instagram</p>
-                
-            </div>
+      <div
+        class="flex justify-center sm:justify-between px-4 py-3 text-[16px] items-center"
+      >
+        <div class="one flex gap-x-2 justify-center items-center">
+          <p>nk946432@gmail.com</p>
+          <button class="bg-white text-black px-[16px] py-2 rounded-2xl">
+            copy
+          </button>
+          <button class="bg-white text-black px-[20px] py-2 rounded-2xl">
+            cv
+          </button>
         </div>
-        
-      </nav>
-
-      <div class="contents h-[90vh]  z-10 flex flex-col justify-center items-center">
-        <div class="img relative">
-            <img src="sec.png" alt="" class="w-[140px] h-[140px] rounded-full filter grayscale mb-4 ">
-            <div class="container absolute top-[30%] left-[80%]">
-                <p class="bg-white text-black px-4 py-2  rounded-3xl text-md ">Naveenkumar</p>
-            </div>
-            
-         
-
-        </div>
-        <div class="text sm:w-[700px] text-center w-[90%]">
-            <h1 class="text-4xl sm:text-6xl font-bold mb-4">Build digital  products, brands and experience</h1>
-         
-            <button class="bg-black text-white px-6 py-2 rounded-2xl sm:px-8 sm:py-3"> Go now</button>
+        <div class="two hidden sm:block">
+          <p>linkedin / dribble / instagram</p>
         </div>
       </div>
 
-      <section class="center h-[300px] mt-10">
-        <div class="logos flex justify-center items-center gap-x-4 mt-10">
-          <i class="fa-solid fa-mug-hot"></i>
-          <i class="fa-solid fa-mug-hot"></i>
-          <i class="fa-solid fa-mug-hot"></i>
-          <i class="fa-solid fa-mug-hot"></i>
-          <i class="fa-solid fa-mug-hot"></i>
+      <div class="h-[90vh] flex flex-col justify-center items-center">
+        <div class="img relative">
+          <img
+            src="sec.png"
+            alt="Profile Picture"
+            class="w-[140px] h-[140px] rounded-full filter grayscale mb-4"
+          />
+          <div class="absolute top-[30%] left-[80%]">
+            <p
+              class="flex items-center bg-white text-black px-[16px] py-2 rounded-3xl text-md whitespace-nowrap container"
+            >
+              <span>Naveenkumar</span><span class="ml-1">👋</span>
+            </p>
+          </div>
         </div>
-      </section>
+        <div class="text sm:w-[700px] text-center w-[90%]">
+          <h1 class="text-4xl sm:text-6xl font-bold mb-4">
+            Build digital products, brands and experience
+          </h1>
+          <button
+            class="bg-black hi text-white px-6 py-2 rounded-2xl sm:px-8 sm:py-3"
+          >
+            Go now
+          </button>
+        </div>
+      </div>
     </section>
 
-    
+    <!-- Second Section - Fixed Version -->
+    <div>
+      <section
+        class="bg-gray-300 min-h-[200px] h-[100vh] mb-[100px] rounded-tr-[12%] py-8"
+      >
+        <div
+          class="h-[200px] w-full bg-white flex justify-center items-center rounded-br-[12%] rounded-bl-[12%] sm:rounded-br-[15%] sm:rounded-bl-[15%]"
+        >
+          <div class="logos flex justify-center items-center gap-x-[50px]">
+            <i
+              class="fa fa-university text-2xl sm:text-5xl"
+              aria-hidden="true"
+            ></i>
+            <i
+              class="fa fa-university text-2xl sm:text-5xl"
+              aria-hidden="true"
+            ></i>
+            <i
+              class="fa fa-university text-2xl sm:text-5xl"
+              aria-hidden="true"
+            ></i>
+            <i
+              class="fa fa-university text-2xl sm:text-5xl"
+              aria-hidden="true"
+            ></i>
+            <i
+              class="fa fa-university text-2xl sm:text-5xl hidden sm:inline-block"
+              aria-hidden="true"
+            ></i>
+          </div>
+        </div>
+
+        <div
+        class="text-center relative h-[200px] w-[200px] mt-8 px-4 border-black border-b-2 z-10 nd"
+      >
+        <h1 class="text-2xl sm:text-4xl py-3 border-black">
+          Collaborate with brands and agencies to create impactful results.
+        </h1>
+      
+        <div class="absolute top-[100%] left-1/2 transform -translate-x-1/2 mt-4 container flex ">
+          <p class="bg-white text-black px-4 py-2 rounded-3xl text-md inline-block">
+            <span>Naveenkumar</span><span class="ml-1  border-black border-b-4">👋</span>
+          </p>
+        </div>
+      </div>
+      
+      </section>
+
+   
+    </div>
   </body>
 </html>
